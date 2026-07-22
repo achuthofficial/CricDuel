@@ -1,0 +1,22 @@
+@theme {
+  /* §8 — scorebook paper by day, floodlit ground by night */
+  --color-ledger: #ede6d6;
+  --color-ink: #14213d;
+  --color-scorer-red: #c1121f;
+  --color-night: #071a14;
+  --color-turf: #1fa97c;
+  --color-floodlight: #ffe9b0;
+
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'Inter Tight', system-ui, sans-serif;
+  --font-mono: 'Chivo Mono', ui-monospace, monospace;
+
+  /* 12 / 14 / 16 / 20 / 28 / 40 / 64 — nothing between */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: 4rem;
+}
