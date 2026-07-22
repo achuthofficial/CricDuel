@@ -91,10 +91,3 @@ broadcast as a bare count (`slotsFilled`), nothing else. This is covered by an
 automated test: `server/secrecy.test.js` asserts that no payload sent to one
 player ever contains an ID unique to the other player's squad.
 
-## Status
-
-Phases 0–6 of the build are complete and playable end-to-end locally:
-player data, rooms/lobby, the full 11-slot draft, the simulation engine,
-the match screen, and result/rematch. Not yet done: production hosting/
-deployment and the full on-device mobile polish pass (real phones on real
-networks, performance profiling, full accessibility audit).
