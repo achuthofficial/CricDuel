@@ -1,0 +1,26 @@
+{
+  "name": "cricduel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,magenta \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "test:server": "npm run test --prefix server",
+    "validate:players": "node scripts/validate-players.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achuthofficial/CricDuel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/achuthofficial/CricDuel/issues"
+  },
+  "homepage": "https://github.com/achuthofficial/CricDuel#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
